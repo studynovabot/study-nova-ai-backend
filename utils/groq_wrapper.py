@@ -4,9 +4,9 @@ import os
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-async def ask_groq(prompt, model="mixtral-8x7b"):
+async def ask_groq(prompt, model="gemma2-9b-it"):
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Authorization": f"Bearer {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}",
         "Content-Type": "application/json"
     }
     json_data = {
